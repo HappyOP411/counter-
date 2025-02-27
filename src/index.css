@@ -1,0 +1,48 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: rgb(54, 54, 54);
+}
+
+h1 {
+  font-size: 48px;
+  color:black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+
+}
+
+button:hover {
+  background-color:rgba(0, 0, 0, 0.603);
+ transform: scale(1.1); 
+}
+
+button:disabled {
+  background-color:rgba(0, 0, 0, 0.604);
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+}
